@@ -1,0 +1,233 @@
+.header{
+ font-family: 'Fjalla One', sans-serif;
+}
+* {
+ box-sizing: border-box;
+}
+ 
+body {
+ margin: 0;
+}
+ 
+a {
+ margin: 0;
+ padding: 0;
+}
+.sidenav {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0, 255, 213);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(70, 70, 70);
+  display: block;
+  justify-content: space-between;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.main-container {
+ margin: 0;
+}
+.Logo-container a{
+  font-weight: bold;
+  position: sticky;
+  top: 10px;
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-family: 'Arvo', serif;
+  font-size: 200%;
+  padding: 30px;
+}
+.Logo-container a:hover{
+  color: rgb(212, 42, 99);
+}
+.hero-container{
+  background-color:rgb(255, 206, 190);
+  padding: 30px;
+}
+.hero{
+  height: 600px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(255, 206, 190);
+}
+.hero h1{
+  margin: 0;
+  font-size: 325%;
+  padding: 1rem;
+  font-family: 'Arvo', serif;
+}
+
+.hero p{
+  font-family: 'Advent Pro', sans-serif;
+  text-align: center;
+  font-size: 150%;
+  width: 50%;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  text-align: left;
+  color: white;
+}
+
+.left2{
+  background-color:brown; 
+  justify-content: center;
+  margin: 0px;
+  padding: 5%;
+  width: 50%;
+  height: 700px;
+  align-items: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+.header2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+}
+
+.right2{
+  background-color: aliceblue; 
+  justify-content: center;
+  margin: 0px;
+  padding: 5%;
+  width: 50%;
+  height: 700px;
+  align-items: center; 
+  
+}
+.neddie1{
+  width: 110%;
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.neddie2{
+  width: 75%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.Container3{
+  background-color: rgb(36, 68, 173);
+  height: 600px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+.graphic-design{
+  margin: 0;
+  padding: 10px;
+  color: rgb(255, 174, 174);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 400%;
+  width: 50vw;
+}
+.graphic-logo a{
+ color: white;
+ font-size: 900%;
+ margin: 10px;
+ padding: 20px;
+ text-align: center;
+}
+
+.container4{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  text-align: left;
+  color: rgb(48, 48, 48);
+
+}
+.left4{
+  background-color: rgb(253, 214, 233);
+  justify-content: center;
+  margin: 0px;
+  padding: 5%;
+  width: 50%;
+  height: 700px;
+  align-items: center;
+  font-family: 'Fjalla One', sans-serif; 
+  font-size: 200%;
+}
+.right4{
+  background-color: rgb(255, 131, 109);
+  justify-content: center;
+  margin: 0px;
+  padding: 5%;
+  width: 50%;
+  height: 700px;
+}
+
+.drawing{
+  width: 125%;
+  height: 75%;
+}
+.sam{
+  width: 75%;
+  height: 50%;
+}
+.dragonfly{
+  width: 35%;
+  height: 60%;
+  padding: 10px;
+}
+.wave{
+  width: 35%;
+  height: 60%;
+}
+
+.Container5{
+  background-color: rgb(0, 128, 79);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  font-size: 200%;
+  font-family: 'Fjalla One', sans-serif; 
+  height: 800px;
+  
+}
+.Nature-photography{
+  justify-content: right;
+  align-items: right;
+  width: 50vw;
+}
+.images5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
